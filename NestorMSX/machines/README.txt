@@ -1,1 +1,0 @@
-﻿Create new machines by creating a subdirectory here and putting a machine.config file in it (copying the file from other machine and modifying it is the easiest way). The Shared folder contains files available for all machines.

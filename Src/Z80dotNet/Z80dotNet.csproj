@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Admin\Desktop\RE\YTSpectrum\Z80dotNet.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34E8FE87-239E-462B-9FFE-6E754E928E6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Z80dotNet</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <ApplicationVersion>1.0.7.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Konamiman.Z80dotNet</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IZ80InterruptSource.cs" />
+    <Compile Include="AfterInstructionExecutionEventArgs.cs" />
+    <Compile Include="Bit.cs" />
+    <Compile Include="IExecutionStopper.cs" />
+    <Compile Include="IClockSynchronizer.cs" />
+    <Compile Include="InstructionExecutionContext.cs" />
+    <Compile Include="BeforeInstructionFetchEventArgs.cs" />
+    <Compile Include="Z80InstructionExecutor.cs" />
+    <Compile Include="InstructionFetchFinishedEventArgs.cs" />
+    <Compile Include="InstructionFetchFinishedEventNotFiredException.cs" />
+    <Compile Include="IZ80InstructionExecutor.cs" />
+    <Compile Include="IMainZ80Registers.cs" />
+    <Compile Include="IMemory.cs" />
+    <Compile Include="BeforeInstructionExecutionEventArgs.cs" />
+    <Compile Include="IZ80Processor.cs" />
+    <Compile Include="IZ80ProcessorAgent.cs" />
+    <Compile Include="IZ80Registers.cs" />
+    <Compile Include="MainZ80Registers.cs" />
+    <Compile Include="MemoryAccessEventArgs.cs" />
+    <Compile Include="MemoryAccessEventType.cs" />
+    <Compile Include="MemoryAccessMode.cs" />
+    <Compile Include="ClockSynchronizer.cs" />
+    <Compile Include="PlainMemory.cs" />
+    <Compile Include="ProcessorEventArgs.cs" />
+    <Compile Include="ProcessorState.cs" />
+    <Compile Include="NumberUtils.cs" />
+    <Compile Include="StopReason.cs" />
+    <Compile Include="Z80Processor.cs" />
+    <Compile Include="Z80Registers.cs" />
+    <Compile Include="Enums\InterruptType.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

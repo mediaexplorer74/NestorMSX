@@ -1,11 +1,20 @@
 # NestorMSX #
 
+My fork of [NestorMSX](https://github.com/Konamiman/NestorMSX) project.
 
 ## What is this? ##
 
 NestorMSX is a very simple, incomplete (but extensible via plugins), underperforming MSX emulator. It was originally developed with the purpose of serving as an example of an emulation environment built around [the Z80.NET package](https://github.com/Konamiman/Z80dotNet). It is written in C# and targets the .NET Framework 4 Client Profile.
 
 **[Here is the plugin development guide](PluginDevelopmentGuide.md)** in case you were searching for it, by the way.
+
+
+
+## Screenshots ##
+
+![](Images/shot01.png)
+![](Images/shot02.png)
+![](Images/shot03.png)
 
 
 ## What does it emulate? ##
@@ -62,6 +71,12 @@ If you are a developer and want to build your own plugins, take a look at the [P
 
 ...if you like this project **[please consider donating!](http://www.konamiman.com/msx/msx-e.html#donate)** My kids need moar shoes!
 
-## But who am I? ##
+## Reference(s) ##
 
-I'm [Konamiman, the MSX freak](http://www.konamiman.com). No more, no less.
+- [Konamiman, the MSX freak](http://www.konamiman.com). No more, no less.
+
+## ..
+As is. No support. RnD only.
+
+## .
+[m][e] 2023

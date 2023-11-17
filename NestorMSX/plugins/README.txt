@@ -1,1 +1,0 @@
-﻿Put here the DLLs containing NestorMSX plugins, either directly or in a subdirectory.
